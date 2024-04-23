@@ -1,0 +1,193 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', Helvetica, Arial, sans-serif;
+}
+
+nav.navegation{
+    width: 100%;
+    height: 4rem;
+    background-color: #eaeaea;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+nav img.logo{
+    width: 3rem;
+    height: 3rem;
+}
+
+nav h2{
+    font-size: 1.3rem;
+}
+
+nav a{
+    text-decoration: none;
+}
+nav a.redefinir-nav{
+    margin-left: 1em;
+    font-size: 1.3rem;
+    color: black;
+}
+
+nav a.help{
+    color: #fb5630;
+
+}
+nav a:nth-child(-n + 3){
+    margin-right: 25em;/*Acho que da para usar outro método para alinhar as coisas, VERIFICAR!!*/
+}
+
+main.container{
+    width: 100%;
+    height: 30rem;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+main div.tela-principal{
+    width: 35rem;
+    height: 18rem;
+    background-color: white;
+    border-radius: 0.5rem;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    box-shadow:  0 2px 4px 2px lightgray;
+}
+main div a{
+    position: relative;
+    right: 45%;
+    top: 10px;
+}
+
+main div img{
+    width: 25px;
+    height: 25px;
+}
+
+main p.redefinir-senha{
+    margin-top: 1.5rem;
+    font-size: 1.2rem;
+}
+
+main input{
+    padding: 12px;
+    width: 22rem;
+    margin: 1.5rem;
+}
+
+main button{
+    width: 24rem;
+    height: 2.5rem;
+    color: white;
+    background-color: #fb5630;
+    margin-top: 2rem;
+}
+
+
+
+/*ABAIXO CONFIGURAÇÕES PADRÃO LINKS E RODAPÉ*/
+
+ansid{
+    display: block;
+    width: 100%;
+    height: auto;
+    background-color: #eaeaea;
+
+}
+
+ansid section.caixas-informacoes{
+    width: 85%;
+    background-color: #eaeaea;
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    margin: 0 auto;
+}
+
+ansid div.box{
+    width: 100%;
+    margin-left: 10px;
+    display: flex;
+    flex-direction: column;
+    margin-top: 2rem;
+
+}
+
+ansid div.box h5{
+    margin-bottom: 1rem;
+}
+
+ansid div.box ul{
+    padding: 0;
+}
+
+ansid div.box ul li{
+    list-style: none;
+    margin-bottom: 7px;
+}
+
+ansid div.box a{
+    text-decoration: none;
+    color: black;
+    padding: 0;
+    font-size: 0.8rem;
+}
+
+ansid div.pagamentos{
+    width: 50%;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    align-items: center;
+    column-gap: 20px;
+}
+
+ansid div.pagamentos img{
+    width: 2.3rem;
+    height: auto;
+}
+
+ansid div.redes-sociais{
+    display: flex;
+}
+
+ansid div.redes-sociais img{
+    width: 1rem;
+    height: auto;
+}
+
+ansid div.redes-sociais p{
+    margin-left: 5px;
+}
+
+ansid div.redes-sociais:not(:last-child){
+    margin-bottom: 7px;
+}
+
+ansid div.box img.loja-aplicativo{
+    width: 4rem;
+    height: auto;
+}
+
+ansid div.box img.loja-aplicativo:last-child{
+    margin-left: 3px;
+}
+
+footer{
+    width: 100%;
+    height: 5rem;
+    background-color: #eaeaea;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+footer hr{
+    display: block;
+    width: 85%;
+    margin-bottom: 1rem;
+}

@@ -1,0 +1,249 @@
+*{
+    margin: 0;
+    font-family: 'Roboto', Helvetica, Arial, sans-serif;
+}
+
+nav.navegation{
+    width: 100%;
+    height: 4rem;
+    background-color: #eaeaea;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+nav img.logo{
+    width: 3rem;
+    height: 3rem;
+}
+
+nav h2{
+    font-size: 1.3rem;
+}
+
+nav a{
+    text-decoration: none;
+}
+nav a.entrar{
+    margin-left: 1em;
+    font-size: 1.3rem;
+    color: black;
+}
+
+nav a.help{
+    color: #fb5630;
+
+}
+nav a:nth-child(-n + 3){
+    margin-right: 25em; /*Acho que da para usar outro método para alinhar as coisas, VERIFICAR!!*/
+}
+
+/*ACIMA CONFIGURAÇÃO PADRÃO nNAVEGAÇÃO*/
+
+main.container{
+    width: 100%;
+    height: 38rem;
+    background-color: #fb5630;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+main div.tela-principal{
+    width: 29rem;
+    height: 35rem;
+    background-color: white;
+    border-radius: 0.5rem;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+main p.login{
+    margin-top: 1.5rem;
+    font-size: 1.2rem;
+}
+
+main input{
+    width: 24rem;
+    height: 2.5rem;
+    margin: 1.5rem;
+}
+
+main button{
+    width: 24rem;
+    height: 2.5rem;
+    color: white;
+    background-color: #fb5630;
+    margin-top: 2rem;
+    cursor: pointer;
+}
+
+main div.senha-login{
+    width: 24rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    
+}
+
+main div.senha-login a{
+    text-decoration: none;
+    font-size: 0.8rem;
+    margin-top: 1.5rem;
+}
+
+main div.linha-separacao{
+    width: 24rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 1.5rem;
+}
+
+main div.linha-separacao hr{
+    width: 11rem;
+}
+
+main div.linha-separacao p{
+    margin: 0 5px;
+}
+
+section.tipos-login{
+    width: 24rem;
+    display: grid;
+    place-items: center;
+    grid-template-columns: 1fr 1fr 1fr;
+    margin-top: 1.5rem;
+}
+
+section.tipos-login div.login-rede-social{
+    width: 7rem;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid #c0bfbf;
+    padding: 5px 0px;
+}
+
+section.tipos-login div.login-rede-social img{
+    width: 1.5rem;
+    height: auto;
+    margin-right: 4px;
+}
+
+main div.new-user{
+    margin-top: 1.6rem;
+}
+
+main div.new-user p{
+    color:#c0bfbf;
+}
+
+main div.new-user a{
+    text-decoration: none;
+    color:#fb5630;
+}
+
+/*ABAIXO CONFIGURAÇÕES PADRÃO LINKS E RODAPÉ*/
+
+ansid{
+    display: block;
+    width: 100%;
+    height: auto;
+    background-color: #eaeaea;
+
+}
+
+ansid section.caixas-informacoes{
+    width: 85%;
+    background-color: #eaeaea;
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    margin: 0 auto;
+}
+
+ansid div.box{
+    width: 100%;
+    margin-left: 10px;
+    display: flex;
+    flex-direction: column;
+    margin-top: 2rem;
+
+}
+
+ansid div.box h5{
+    margin-bottom: 1rem;
+}
+
+ansid div.box ul{
+    padding: 0;
+}
+
+ansid div.box ul li{
+    list-style: none;
+    margin-bottom: 7px;
+}
+
+ansid div.box a{
+    text-decoration: none;
+    color: black;
+    padding: 0;
+    font-size: 0.8rem;
+}
+
+ansid div.pagamentos{
+    width: 50%;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    align-items: center;
+    column-gap: 20px;
+}
+
+ansid div.pagamentos img{
+    width: 2.3rem;
+    height: auto;
+}
+
+ansid div.redes-sociais{
+    display: flex;
+}
+
+ansid div.redes-sociais img{
+    width: 1rem;
+    height: auto;
+}
+
+ansid div.redes-sociais p{
+    margin-left: 5px;
+}
+
+ansid div.redes-sociais:not(:last-child){
+    margin-bottom: 7px;
+}
+
+ansid div.box img.loja-aplicativo{
+    width: 4rem;
+    height: auto;
+}
+
+ansid div.box img.loja-aplicativo:last-child{
+    margin-left: 3px;
+}
+
+footer{
+    width: 100%;
+    height: 5rem;
+    background-color: #eaeaea;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+footer hr{
+    display: block;
+    width: 85%;
+    margin-bottom: 1rem;
+}
