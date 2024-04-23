@@ -1,0 +1,264 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', Helvetica, Arial, sans-serif;
+}
+
+body {
+    background-color: #c3c3c3;
+    line-height: 1.2;
+}
+
+header {
+    width: 100%;
+    background-color: rgb(251, 86, 48);
+    height: 4.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+header div {
+    display: flex;
+    align-items: center;
+    margin-left: 3%;
+}
+
+header img {
+    height: 60px;
+}
+
+header h1 {
+    color: white;
+    margin-left: 5%;
+    cursor: pointer;
+    margin-bottom: 0px;
+    font-weight: 500;
+    line-height: 1.2;
+    font-size: 2rem;
+}
+
+header a {
+    text-decoration: none;
+}
+
+header p {
+    color: white;
+    margin-right: 1.5vw;
+    font-size: 20px;
+}
+
+.menu-nav ul {
+    background-color: #fb7730;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    margin: 0;
+    padding: 0;
+    line-height: 1.15;
+}
+
+.menu-nav ul li {
+    list-style: none;
+}
+
+.menu-nav ul li a {
+    font-size: 18px;
+    text-decoration: none;
+    text-align: center;
+    color: white;
+    padding: 14px;
+    display: block;
+}
+
+.menu-nav ul li a:hover {
+    background-color: rgb(251, 86, 48);
+    transition: 0.5s;
+}
+
+.formulario-container {
+    margin: 0 auto;
+    margin-top: 20px;
+    width: 40%;
+    max-width: 600px;
+    min-width: 485px;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 5px;
+    margin-bottom: 25px;
+}
+
+.formulario-container h2 {
+    margin-top: 1.2rem;
+    color: rgb(251, 86, 48);
+    margin-bottom: 10px;
+    font-size: 1.3rem;
+}
+
+.formulario-container form {
+    display: flex;
+    flex-direction: column;
+    width: 60%;
+}
+
+.formulario-container input {
+    margin-top: 1rem;
+    padding: 10px;
+    border: 1px solid rgba(128, 128, 128, 0.3);
+}
+
+.formulario-container h4 {
+    color: rgb(251, 86, 48);
+    margin: 0 auto;
+    margin-top: 20px;
+}
+
+#escolher-arquivo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 3rem;
+    margin-top: 20px;
+    font-size: 13px; 
+}
+
+#escolher-arquivo label {
+    display: flex;
+    justify-content: center;
+    border: 1px solid #fb7730;
+    background-color: white;
+    color: #fb7730;
+    padding: 10px;
+    border-radius: 10px;
+    margin-right: 1vw;
+    width: 100px;
+    cursor: pointer;
+}
+
+#escolher-arquivo label:hover {
+    border: 1px solid rgb(251, 86, 48);
+    color: rgb(251, 86, 48);
+    scale: 1.05;
+}
+
+#cadastro-btn {
+    margin-top: 1.5rem;
+    background-color: rgb(251, 86, 48);
+    color: white;
+    padding: 10px;
+    border: none;
+    margin-bottom: 1.5rem;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+
+#cadastro-btn:hover {
+    background-color: rgb(255, 47, 0);
+    font-weight: bold;
+    transition: 0.5s;
+}
+
+/*ABAIXO CONFIGURAÇÕES PADRÃO LINKS E RODAPÉ*/
+
+ansid{
+    display: block;
+    width: 100%;
+    height: auto;
+    background-color: #eaeaea;
+
+}
+
+ansid section.caixas-informacoes{
+    width: 85%;
+    background-color: #eaeaea;
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    margin: 0 auto;
+}
+
+ansid div.box{
+    width: 100%;
+    margin-left: 10px;
+    display: flex;
+    flex-direction: column;
+    margin-top: 2rem;
+
+}
+
+ansid div.box h5{
+    margin-bottom: 1rem;
+}
+
+ansid div.box ul{
+    padding: 0;
+}
+
+ansid div.box ul li{
+    list-style: none;
+    margin-bottom: 7px;
+}
+
+ansid div.box a{
+    text-decoration: none;
+    color: black;
+    padding: 0;
+    font-size: 0.8rem;
+}
+
+ansid div.pagamentos{
+    width: 50%;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    align-items: center;
+    column-gap: 20px;
+}
+
+ansid div.pagamentos img{
+    width: 2.3rem;
+    height: auto;
+}
+
+ansid div.redes-sociais{
+    display: flex;
+}
+
+ansid div.redes-sociais img{
+    width: 1rem;
+    height: auto;
+}
+
+ansid div.redes-sociais p{
+    margin-left: 5px;
+}
+
+ansid div.redes-sociais:not(:last-child){
+    margin-bottom: 7px;
+}
+
+ansid div.box img.loja-aplicativo{
+    width: 4rem;
+    height: auto;
+}
+
+ansid div.box img.loja-aplicativo:last-child{
+    margin-left: 3px;
+}
+
+footer{
+    width: 100%;
+    height: 5rem;
+    background-color: #eaeaea;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+footer hr{
+    display: block;
+    width: 85%;
+    margin-bottom: 1rem;
+}
